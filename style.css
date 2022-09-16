@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.top-bar {
+  background-color: blanchedalmond;
+  position: fixed;
+  width: 100%;
+  transform: translateY(200px);
+  transition: all 1.3s ease !important;
+}
+
+.cl-web-header {
+  background-color: brown;
+  position: fixed;
+  width: 100%;
+  transform: translateY(259px);
+  transition: all 1.3s ease !important;
+}
+
+.top-bar.hide {
+  transform: translateY(-63px);
+  transition: all 1.3s ease !important;
+}
+
+.cl-web-header.she-header {
+  transform: translateY(0px);
+  transition: all 1.3s ease !important;
+}
+
+.container {
+  padding: 5rem;
+  background-color: aqua;
+  height: 100vh;
+}
+
+
+#output {
+  padding: 1rem 0;
+  color: black;
+}
