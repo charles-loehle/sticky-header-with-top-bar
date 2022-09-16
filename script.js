@@ -5,10 +5,10 @@ document.addEventListener('scroll', e => {
   // console.log(window.scrollY) 
   if (window.scrollY >= 60) {
     // console.log('60!!');
-    topBar.classList.add('hide')
+    topBar.classList.add('slide-up')
     bottomHeader.classList.add('she-header')
   } else {
-    topBar.classList.remove('hide')
+    topBar.classList.remove('slide-up')
     bottomHeader.classList.remove('she-header')
   }
 })
