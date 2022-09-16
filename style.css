@@ -20,12 +20,12 @@ body {
 }
 
 .top-bar.hide {
-  transform: translateY(-63px);
+  transform: translateY(41px);
   transition: all 1.3s ease !important;
 }
 
 .cl-web-header.she-header {
-  transform: translateY(0px);
+  transform: translateY(100px);
   transition: all 1.3s ease !important;
 }
 
