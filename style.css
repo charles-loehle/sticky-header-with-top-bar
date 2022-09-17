@@ -1,43 +1,39 @@
 body {
-  height: 100vh;
-  margin: 0;
+	height: 100vh;
+	margin: 0;
 }
 
 .top-bar {
-  background-color: blanchedalmond;
-  position: fixed;
-  width: 100%;
-  transform: translateY(0px);
-  transition: all .3s ease !important;
+	background-color: blanchedalmond;
+	position: fixed;
+	width: 100%;
+	transition: all 0.3s ease !important;
 }
 
 .cl-web-header {
-  background-color: yellow;
-  position: fixed;
-  width: 100%;
-  transform: translateY(58px);
-  transition: all .3s ease !important;
+	background-color: yellow;
+	position: fixed;
+	width: 100%;
+	transition: all 0.3s ease !important;
 }
 
 .top-bar.slide-up {
-  transform: translateY(-55px);
-  transition: all .3s ease !important;
+	transform: translateY(-100%);
+	transition: all 0.3s ease !important;
 }
 
 .cl-web-header.she-header {
-  transform: translateY(0px);
-  transition: all .3s ease !important;
+	transition: all 0.3s ease !important;
 }
 
 .container {
-  padding: 5rem;
-  background-color: red;
-  height: 100vh;
-  padding-top: 16rem;
+	padding: 5rem;
+	background-color: red;
+	height: 100vh;
+	padding-top: 16rem;
 }
 
-
 #output {
-  padding: 1rem 0;
-  color: black;
+	padding: 1rem 0;
+	color: black;
 }
