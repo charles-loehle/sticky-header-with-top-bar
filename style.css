@@ -3,22 +3,37 @@ body {
 	margin: 0;
 }
 
-.top-bar {
-	background-color: blanchedalmond;
+.header-container {
 	position: fixed;
 	width: 100%;
+}
+
+.top-bar {
+	background-color: blanchedalmond;
+	padding: 1rem;
+	width: 100%;
+	display: flex;
+}
+
+.top-bar h3,
+.cl-web-header h3 {
+	margin: 0;
+}
+
+.top-bar .column-1,
+.top-bar .column-2 {
+	width: 50%;
+}
+
+.top-bar.slide-up {
+	transform: translateY(-100%);
 	transition: all 0.3s ease !important;
 }
 
 .cl-web-header {
 	background-color: yellow;
-	position: fixed;
+	padding: 2rem;
 	width: 100%;
-	transition: all 0.3s ease !important;
-}
-
-.top-bar.slide-up {
-	transform: translateY(-100%);
 	transition: all 0.3s ease !important;
 }
 
@@ -27,7 +42,7 @@ body {
 }
 
 .container {
-	padding: 5rem;
+	padding: 2rem;
 	background-color: red;
 	height: 100vh;
 	padding-top: 16rem;
